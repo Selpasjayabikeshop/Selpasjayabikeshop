@@ -1,192 +1,139 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Selpas Jaya Group Bike Store</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selpas Jaya Bike Shop</title>
 
-<style>
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial,sans-serif;
-}
+    <link rel="stylesheet" href="style.css">
 
-body{
-background:#f5f5f5;
-}
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
-header{
-background:#111;
-color:white;
-padding:20px 8%;
-display:flex;
-justify-content:space-between;
-align-items:center;
-}
-
-.logo{
-font-size:30px;
-font-weight:bold;
-color:#ffcc00;
-}
-
-nav a{
-color:white;
-text-decoration:none;
-margin-left:25px;
-}
-
-.hero{
-height:90vh;
-background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
-url("https://images.unsplash.com/photo-1517649763962-0c623066013b");
-background-size:cover;
-background-position:center;
-display:flex;
-justify-content:center;
-align-items:center;
-text-align:center;
-color:white;
-}
-
-.hero h1{
-font-size:60px;
-}
-
-.hero p{
-font-size:22px;
-margin-top:20px;
-}
-
-.btn{
-display:inline-block;
-margin-top:30px;
-padding:15px 30px;
-background:#ffcc00;
-color:black;
-text-decoration:none;
-border-radius:5px;
-font-weight:bold;
-}
-
-section{
-padding:80px 8%;
-}
-
-.title{
-font-size:40px;
-margin-bottom:30px;
-}
-
-.products{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:25px;
-}
-
-.card{
-background:white;
-padding:25px;
-border-radius:10px;
-box-shadow:0 5px 15px rgba(0,0,0,.1);
-text-align:center;
-}
-
-.card img{
-width:100%;
-height:200px;
-object-fit:cover;
-border-radius:10px;
-}
-
-.card h3{
-margin-top:15px;
-}
-
-footer{
-background:#111;
-color:white;
-padding:25px;
-text-align:center;
-}
-</style>
 </head>
-
 <body>
 
 <header>
-<div class="logo">SELPAS JAYA BIKE SHOP</div>
 
-<nav>
-<a href="#">Beranda</a>
-<a href="#">Produk</a>
-<a href="#">Servis</a>
-<a href="#">Tentang</a>
-<a href="#">Kontak</a>
-</nav>
+    <a href="#" class="logo">
+        SELPAS<span>BIKE</span>
+    </a>
+
+    <div class="menu-btn">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+
+    <nav>
+        <a href="#home">Beranda</a>
+        <a href="#produk">Produk</a>
+        <a href="#layanan">Layanan</a>
+        <a href="#tentang">Tentang</a>
+    </nav>
+
 </header>
 
-<div class="hero">
-<div>
-<h1>SELPAS JAYA BIKE SHOP</h1>
-<p>Toko Sepeda Gunung, Road Bike dan BMX</p>
+<section class="home" id="home">
 
-<a class="btn"
-href="https://wa.me/6281234567890">
-Hubungi Kami
-</a>
+    <div class="content">
 
-</div>
-</div>
+        <h1>SELPAS JAYA BIKE SHOP</h1>
 
-<section>
+        <p>
+            Toko sepeda gunung, road bike, BMX dan city bike
+            dengan kualitas terbaik.
+        </p>
 
-<h2 class="title">Produk Unggulan</h2>
+        <a href="#produk">Lihat Katalog</a>
 
-<div class="products">
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1541625602330-2277a4c46182">
-<h3>Mountain Bike</h3>
-<p>Sepeda gunung untuk berbagai medan.</p>
-</div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1485965120184-e220f721d03e">
-<h3>Road Bike</h3>
-<p>Ringan dan cepat untuk performa maksimal.</p>
-</div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1507035895480-2b3156c31fc8">
-<h3>BMX</h3>
-<p>Cocok untuk freestyle dan harian.</p>
-</div>
-
-</div>
+    </div>
 
 </section>
 
-<section>
+<section class="produk" id="produk">
 
-<h2 class="title">Layanan Kami</h2>
+    <h2>KATALOG SEPEDA</h2>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="https://images.unsplash.com/photo-1541625602330-2277a4c46182">
+            <h3>Mountain Bike</h3>
+            <p>Sepeda gunung premium.</p>
+        </div>
+
+        <div class="box">
+            <img src="https://images.unsplash.com/photo-1485965120184-e220f721d03e">
+            <h3>Road Bike</h3>
+            <p>Kecepatan maksimal.</p>
+        </div>
+
+        <div class="box">
+            <img src="https://images.unsplash.com/photo-1507035895480-2b3156c31fc8">
+            <h3>BMX</h3>
+            <p>Freestyle dan harian.</p>
+        </div>
+
+        <div class="box">
+            <img src="https://images.unsplash.com/photo-1511994298241-608e28f14fde">
+            <h3>City Bike</h3>
+            <p>Nyaman untuk sehari-hari.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="layanan" id="layanan">
+
+    <h2>LAYANAN KAMI</h2>
+
+    <div class="service">
+
+        <div class="card">
+            <i class="fa-solid fa-screwdriver-wrench"></i>
+            <h3>Servis Sepeda</h3>
+        </div>
+
+        <div class="card">
+            <i class="fa-solid fa-gears"></i>
+            <h3>Sparepart Original</h3>
+        </div>
+
+        <div class="card">
+            <i class="fa-solid fa-bicycle"></i>
+            <h3>Tune Up</h3>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="tentang" id="tentang">
+
+<h2>TENTANG KAMI</h2>
 
 <p>
-✔ Penjualan Sepeda<br><br>
-✔ Sparepart Original<br><br>
-✔ Servis dan Tune Up<br><br>
-✔ Konsultasi Pembelian
+Selpas Jaya Bike Shop menyediakan berbagai jenis sepeda
+dan layanan servis profesional dengan kualitas terbaik.
 </p>
 
 </section>
 
 <footer>
 
-© 2026 Selpas JAYA Bike SHOP
+<h3>SELPAS JAYA BIKE SHOP</h3>
+
+<p>© 2026 All Rights Reserved</p>
 
 </footer>
+
+<a class="wa"
+href="https://wa.me/6281234567890">
+<i class="fa-brands fa-whatsapp"></i>
+</a>
+
+<script src="script.js"></script>
 
 </body>
 </html>
